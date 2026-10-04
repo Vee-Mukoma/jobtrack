@@ -1,0 +1,2 @@
+# jobtrack
+A web application for managing and tracking job applications.
