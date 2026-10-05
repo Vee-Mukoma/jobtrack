@@ -1,9 +1,9 @@
-function ApplicationCard() {
+function ApplicationCard({ position, company, status }) {
     return (
         <div className="application-card">
-            <p>Company: Google</p>
-            <p>Position: Software Engineer</p>
-            <p>Status: Interview Scheduled</p>
+            <h3>{position}</h3>
+            <p>{company}</p>
+            <p>{status}</p>
         </div>
     );
 }
