@@ -2,6 +2,7 @@ import Header from './components/Header.jsx'
 import Dashboard from './components/Dashboard.jsx'
 import JobForm from './components/JobForm.jsx'
 import ApplicationList from './components/ApplicationList.jsx'
+import ApplicationCard from './components/ApplicationCard.jsx'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Dashboard />
       <JobForm />
       <ApplicationList />
+      <ApplicationCard />
     </div>
   )
 }
